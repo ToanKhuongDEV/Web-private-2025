@@ -69,10 +69,20 @@ body {
 
 i {
 	padding: 0;
-	border: 10px solid rgb(255, 255, 255, 0.4);
-	border-radius: 50%;
 }
-i:hover {
+
+li {
+	border-radius: 50%;
+	width: 30px;
+	height: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 30px;
+	background-color: rgb(250, 250, 250, 0.4);
+}
+
+li:hover {
 	color: purple;
-	border: 10px solid white;
+	background-color: rgb(250, 250, 250, 0.7);
 }
