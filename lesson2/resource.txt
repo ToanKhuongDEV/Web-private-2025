@@ -1,0 +1,12 @@
+
+watch : https://images.pexels.com/photos/592815/pexels-photo-592815.jpeg
+banner : https://images.pexels.com/photos/691114/pexels-photo-691114.jpeg
+watermelon : https://images.pexels.com/photos/1337825/pexels-photo-1337825.jpeg
+fruit : https://images.pexels.com/photos/1346347/pexels-photo-1346347.jpeg
+nui : https://images.pexels.com/photos/1437267/pexels-photo-1437267.jpeg
+english breakfast : https://images.pexels.com/photos/1510684/pexels-photo-1510684.jpeg
+chicken rice : https://images.pexels.com/photos/1624487/pexels-photo-1624487.jpeg
+chicken : https://images.pexels.com/photos/2673353/pexels-photo-2673353.jpeg
+chef : https://images.pexels.com/photos/3814446/pexels-photo-3814446.jpeg
+pharmacist : https://images.pexels.com/photos/4033148/pexels-photo-4033148.jpeg
+beef : https://www.bradleysmoker.com/cdn/shop/articles/HOW_TO_REVERSE_SEAR_MEAT_WITH_A_FOOD_SMOKER.webp?v=1675738998
