@@ -4,136 +4,292 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Homework lesson 2 Toan Khuong</title>
+		<link rel="stylesheet" href="styles.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 	</head>
 	<body>
-		<div class="head">
-			<a>Cooks delight</a>
+		<!-- start head -->
+		<div class="header">
+			<a class="brands">Cooks delight</a>
 			<ul class="menu">
 				<li>HOME</li>
 				<li>RECIPES</li>
 				<li>COOKING TIPS</li>
 				<li>ABOUT US</li>
 			</ul>
-			<button id="button-header"><a href="#">SUBSCRIBE</a></button>
+			<div class="narBar-container">
+				<i class="fas fa-search"></i>
+				<button class="button-header"><a href="#">SUBSCRIBE</a></button>
+			</div>
 		</div>
+		<!-- end Head -->
+
+		<!-- start banner -->
 		<div class="banner">
-			<img src="https://images.pexels.com/photos/691114/pexels-photo-691114.jpeg" alt="banner" style="width: 100%" />
-			<h1>UNLEASH CULINARY EXCELLENCE</h1>
-			<p>Explore a world of flavors, discover handcrafted recipes, and let the aroma of our passion for cooking fill your kitchen.</p>
-			<button><a href="#">EXPLORE RECIPES</a></button>
+			<div class="hero">
+				<h1>
+					UNLEASH <br />
+					CULINARY <br />
+					EXCELLENCE
+				</h1>
+				<p>
+					Explore a world of flavors, discover handcrafted recipes, and let the <br />
+					aroma of our passion for cooking fill your kitchen.
+				</p>
+				<button class="explore-button"><a href="#">EXPLORE RECIPES</a></button>
+			</div>
 		</div>
+		<!-- end banner -->
+
+		<!-- start sumary -->
 		<div class="bod">
 			<div class="inner-left-bod">
-				<p><a href="#">EXPLORE</a></p>
-				<p>If you are a breakfast enthusiast, a connoisseur of savory delights, or on the hunt for delectable desserts, our curated selection has something to satisfy every palate</p>
-				<button><a href="#">SEE MORE</a></button>
+				<p class="explore-title"><a href="#">EXPLORE</a></p>
+				<p class="title1">OUR DIVERSE PALETTE</p>
+				<p class="paragh">
+					If you are a breakfast enthusiast, a connoisseur of savory delights, or <br />
+					on the hunt for delectable desserts, our curated selection has <br />
+					something to satisfy every palate
+				</p>
+				<p class="see-more-button"><a href="#">SEE MORE</a></p>
 			</div>
 			<ul class="inner-right-bod">
-				<li>BREAKFAST</li>
-				<li>LUNCH</li>
-				<li>DINNER</li>
-				<li>DESSERT</li>
-				<li>QUICK BITE!</li>
+				<li class="items-in">
+					<i class="fas fa-mug-hot"></i>
+					<span>BREAKFAST</span>
+				</li>
+				<li class="items-in">
+					<i class="fas fa-utensils"></i>
+					<span>LUNCH</span>
+				</li>
+				<li class="items-in">
+					<i class="fas fa-hamburger"></i>
+					<span>DINNER</span>
+				</li>
+				<li class="items-in">
+					<i class="fas fa-cookie-bite"></i>
+					<span>DESSERT</span>
+				</li>
+				<li>
+					<i class="fas fa-bolt"></i>
+					<span>QUICK BITE!</span>
+				</li>
 			</ul>
 		</div>
+		<!-- end sumary -->
+
+		<!-- start RECIPES -->
 		<div class="bod2">
-			<h1>FEATURED RECIPES</h1>
-			<div class="list-featured">
-				<div class="pro-featured">
-					<img src="https://images.pexels.com/photos/1624487/pexels-photo-1624487.jpeg" alt="chicken rice" style="width: 50%" />
-					<p class="dish-name">Savory Herb-Infused Chicken</p>
-					<p>Indulge in the rich and savory symphony of flavors with our Savory Herb-Infused Chicken.</p>
-					<div class="in-stock">40 MIN - EASY PREP - 3 SERVES</div>
-					<button><a href="#">VIEW RECIPE</a></button>
-				</div>
-				<div class="pro-featured">
-					<img src="https://images.pexels.com/photos/1346347/pexels-photo-1346347.jpeg" alt="fruit juice" style="width: 50%" />
-					<p class="dish-name">Decadent Chocolate Mousse</p>
-					<p>Dive into the velvety indulgence of our Decadent Chocolate Mousse. A dessert that transcends sweetness!</p>
-					<div class="in-stock">30 MIN - MEDIUM PREP - 4 SERVES</div>
-					<button><a href="#">VIEW RECIPE</a></button>
+			<div class="head-bod2">
+				<h1>FEATURED RECIPES</h1>
+				<div class="slider-nav">
+					<button class="btn-arrow">
+						<i class="fas fa-chevron-left"></i>
+					</button>
+					<button class="btn-arrow">
+						<i class="fas fa-chevron-right"></i>
+					</button>
 				</div>
 			</div>
-			<p>RECIPES</p>
+			<div class="list-card">
+				<div class="card-featured">
+					<div class="image-frame">
+						<img src="https://images.pexels.com/photos/1624487/pexels-photo-1624487.jpeg" alt="chicken rice" />
+					</div>
+					<div class="card-content">
+						<h3 class="dish-name">Savory Herb-Infused Chicken</h3>
+						<p class="desc-dish">
+							Indulge in the rich and savory symphony of flavors with our Savory Herb-
+							<br />
+							Infused Chicken.
+						</p>
+						<div class="in-stock">40 MIN - EASY PREP - 3 SERVES</div>
+						<button class="view-re"><a href="#">VIEW RECIPE</a></button>
+					</div>
+				</div>
+				<div class="card-featured">
+					<div class="image-frame">
+						<img src="https://images.pexels.com/photos/1346347/pexels-photo-1346347.jpeg" alt="fruit juice" />
+						<div class="new-badge">NEW</div>
+					</div>
+					<div class="card-content">
+						<h3 class="dish-name">Decadent Chocolate Mousse</h3>
+						<p class="desc-dish">
+							Dive into the velvety indulgence of our Decadent Chocolate Mousse. A<br />
+							dessert that transcends sweetness!
+						</p>
+						<div class="in-stock">30 MIN - MEDIUM PREP - 4 SERVES</div>
+						<button class="view-re"><a href="#">VIEW RECIPE</a></button>
+					</div>
+				</div>
+			</div>
 		</div>
+		<!-- end RECIPES -->
+
+		<!-- DETAIL RECIPES  -->
 		<div class="bod3">
-			<h1>EMBARK ON A JOURNEY</h1>
-			<p>With our diverse collection of recipes we have something to satisfy every palate.</p>
-			<ul>
-				<li>ALL</li>
-				<li>VEGAN</li>
-				<li>BREAKFAST</li>
-				<li>LUNCH</li>
-				<li>DINNER</li>
-				<li>DESSERT</li>
-				<li>QUICK BITE!</li>
-			</ul>
+			<div class="csd">
+				<span>RECIPES</span>
+			</div>
+			<div class="head-bod3">
+				<h1 class="titles">EMBARK ON A JOURNEY</h1>
+				<p>With our diverse collection of recipes we have something to satisfy every palate.</p>
+				<ul class="menu-bod3">
+					<li>ALL</li>
+					<li>VEGAN</li>
+					<li>BREAKFAST</li>
+					<li>LUNCH</li>
+					<li>DINNER</li>
+					<li>DESSERT</li>
+					<li>QUICK BITE!</li>
+				</ul>
+			</div>
 			<div class="list-featured2">
 				<div class="pro-featured2">
-					<img src="https://images.pexels.com/photos/1624487/pexels-photo-1624487.jpeg" alt="Chicken" style="width: 30%" />
-					<p class="dish-name2">Savory Herb-Infused Chicken</p>
-					<div class="in-stock2">40 MIN - EASY PREP - 3 SERVES</div>
-					<button><a href="#">VIEW RECIPE</a></button>
+					<div class="frame-image">
+						<img src="https://images.pexels.com/photos/1624487/pexels-photo-1624487.jpeg" alt="Chicken" />
+					</div>
+					<div class="card-content">
+						<h3 class="dish-name">Savory Herb-Infused Chicken</h3>
+						<div class="in-stock">40 MIN - EASY PREP - 3 SERVES</div>
+						<button class="view-re"><a href="#">VIEW RECIPE</a></button>
+					</div>
 				</div>
+
 				<div class="pro-featured2">
-					<img src="https://images.pexels.com/photos/2673353/pexels-photo-2673353.jpeg" alt="Chicken" style="width: 30%" />
-					<p class="dish-name2">Lemon Garlic Grilled Chicken</p>
-					<div class="in-stock2">1 HOUR - HARD PREP - 4 SERVES</div>
-					<button><a href="#">VIEW RECIPE</a></button>
+					<div class="frame-image">
+						<img src="https://images.pexels.com/photos/2673353/pexels-photo-2673353.jpeg" alt="Chicken" />
+					</div>
+					<div class="card-content">
+						<h3 class="dish-name">Lemon Garlic Grilled Chicken</h3>
+						<div class="in-stock">1 HOUR - HARD PREP - 4 SERVES</div>
+						<button class="view-re"><a href="#">VIEW RECIPE</a></button>
+					</div>
 				</div>
+
 				<div class="pro-featured2">
-					<img src="https://images.pexels.com/photos/4033148/pexels-photo-4033148.jpeg" alt="pharmacist" style="width: 30%" />
-					<p class="dish-name2">Quinoa Veggie Stir-Fry</p>
-					<div class="in-stock2">30 MIN - EASY PREP - 2 SERVES</div>
-					<button><a href="#">VIEW RECIPE</a></button>
-					<p>NEW</p>
+					<div class="frame-image">
+						<img src="https://images.pexels.com/photos/4033148/pexels-photo-4033148.jpeg" alt="Quinoa Veggie Stir-Fry" />
+					</div>
+					<div class="card-content">
+						<h3 class="dish-name">Quinoa Veggie Stir-Fry</h3>
+						<div class="in-stock">30 MIN - EASY PREP - 2 SERVES</div>
+						<div class="button-wrapper">
+							<button class="view-re"><a href="#">VIEW RECIPE</a></button>
+							<p class="new-label">NEW</p>
+						</div>
+					</div>
 				</div>
+
 				<div class="pro-featured2">
-					<img src="https://images.pexels.com/photos/1337825/pexels-photo-1337825.jpeg" alt="watermelon" style="width: 30%" />
-					<p class="dish-name2">Berry Bliss Smoothie Bowl</p>
-					<div class="in-stock2">10 MIN - EASY PREP - 2 SERVES</div>
-					<button><a href="#">VIEW RECIPE</a></button>
-					<p>NEW</p>
+					<div class="frame-image">
+						<img src="https://images.pexels.com/photos/1337825/pexels-photo-1337825.jpeg" alt="Berry Bliss Smoothie Bowl" />
+					</div>
+					<div class="card-content">
+						<h3 class="dish-name">Berry Bliss Smoothie Bowl</h3>
+						<div class="in-stock">10 MIN - EASY PREP - 2 SERVES</div>
+						<div class="button-wrapper">
+							<button class="view-re"><a href="#">VIEW RECIPE</a></button>
+							<p class="new-label">NEW</p>
+						</div>
+					</div>
 				</div>
+
 				<div class="pro-featured2">
-					<img src="https://images.pexels.com/photos/1437267/pexels-photo-1437267.jpeg" alt="Spaghetti" style="width: 30%" />
-					<p class="dish-name2">Spaghetti Aglio e Olio</p>
-					<div class="in-stock2">20 MIN - EASY PREP - 2 SERVES</div>
-					<button><a href="#">VIEW RECIPE</a></button>
-					<p>NEW</p>
+					<div class="frame-image">
+						<img src="https://images.pexels.com/photos/1437267/pexels-photo-1437267.jpeg" alt="Spaghetti Aglio e Olio" />
+					</div>
+					<div class="card-content">
+						<h3 class="dish-name">Spaghetti Aglio e Olio</h3>
+						<div class="in-stock">20 MIN - EASY PREP - 2 SERVES</div>
+						<div class="button-wrapper">
+							<button class="view-re"><a href="#">VIEW RECIPE</a></button>
+							<p class="new-label">NEW</p>
+						</div>
+					</div>
 				</div>
+
 				<div class="pro-featured2">
-					<img src="https://images.pexels.com/photos/1510684/pexels-photo-1510684.jpeg" alt="Spaghetti" style="width: 30%" />
-					<p class="dish-name2">Grilled Veggies with Sauce</p>
-					<div class="in-stock2">25 MIN - MEDIUM PREP - 4 SERVES</div>
-					<button><a href="#">VIEW RECIPE</a></button>
-					<p>NEW</p>
+					<div class="frame-image">
+						<img src="https://images.pexels.com/photos/1510684/pexels-photo-1510684.jpeg" alt="Grilled Veggies with Sauce" />
+					</div>
+					<div class="card-content">
+						<h3 class="dish-name">Grilled Veggies with Sauce</h3>
+						<div class="in-stock">25 MIN - MEDIUM PREP - 4 SERVES</div>
+						<div class="button-wrapper">
+							<button class="view-re"><a href="#">VIEW RECIPE</a></button>
+							<p class="new-label">NEW</p>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
+		<!-- DETAIL RECIPES  -->
+
+		<!-- introduce -->
 		<div class="bod4">
-			<div class="bod4-left-inner">
-				<p>ABOUT US</p>
-				<h2>OUR CULINARY CHRONICLE</h2>
-				<p>Our journey is crafted with dedication, creativity, and an unrelenting commitment to delivering delightful culinary experiences. Join us in savoring the essence of every dish and the stories that unfold.</p>
-				<a href="#">READ MORE</a>
+			<!-- ------------------------------------------------------ -->
+			<div class="inner-left-bod">
+				<p class="explore-title"><a href="#">ABOUT US</a></p>
+				<p class="title1">OUR CULINARY CHRONICLE</p>
+				<p class="paragh">
+					Our journey is crafted with dedication, creativity, and an <br />
+					unrelenting commitment to delivering delightful culinary <br />
+					experiences. Join us in savoring the essence of every dish and <br />
+					the stories that unfold.
+				</p>
+				<p class="see-more-button"><a href="#">READ MORE</a></p>
 			</div>
 
+			<!-- ------------------------------------------ -->
 			<div class="bod4-right-inner">
-				<img src="https://www.bradleysmoker.com/cdn/shop/articles/HOW_TO_REVERSE_SEAR_MEAT_WITH_A_FOOD_SMOKER.webp?v=1675738998" alt="grill beef" style="width: 30%" />
-				<img src="https://images.pexels.com/photos/592815/pexels-photo-592815.jpeg" alt="watch" style="width: 30%" />
-
-				<img src="https://images.pexels.com/photos/3814446/pexels-photo-3814446.jpeg" alt="chef" style="width: 30%" />
+				<div class="bod4-right-left">
+					<img src="https://www.bradleysmoker.com/cdn/shop/articles/HOW_TO_REVERSE_SEAR_MEAT_WITH_A_FOOD_SMOKER.webp?v=1675738998" alt="grill beef" />
+					<img src="https://images.pexels.com/photos/592815/pexels-photo-592815.jpeg" alt="watch" />
+				</div>
+				<div class="bod4-right2">
+					<img src="https://images.pexels.com/photos/3814446/pexels-photo-3814446.jpeg" alt="chefchef" />
+				</div>
 			</div>
 		</div>
+		<!-- introduce -->
+
 		<div class="footer">
 			<div class="foot1">
-				<p>SUBCRIBE</p>
-				<h1>JOIN THE FUN SUBSCRIBE NOW!</h1>
-				<p>Subscribe to our newsletter for a weekly serving of recipes, cooking tips, and exclusive insights straight to your inbox.</p>
+				<p class="explore-title2">SUBSCRIBE</p>
+				<div class="hero2">
+					         
+					<h1>JOIN THE FUN SUBSCRIBE NOW!</h1>
+					       
+				</div>
+				<p class="paragh dvc">
+					Subscribe to our newsletter for a weekly serving of recipes, cooking tips, and <br />
+					exclusive insights straight to your inbox.
+				</p>
+
 				<form action="#">
 					<input type="text" placeholder="Email Address" />
+					<button class="footer-subscribe-btn">SUBSCRIBE</button>
 				</form>
+			</div>
+
+			<div class="bottom-footer">
+				<div class="footer-content">
+					<a class="footer-brands">Cooks delight</a>
+					<ul class="footer-menu">
+						<li><a href="#">HOME</a></li>
+						<li><a href="#">RECIPES</a></li>
+						<li><a href="#">COOKING TIPS</a></li>
+						<li><a href="#">ABOUT US</a></li>
+					</ul>
+					<div class="social-icons">
+						<a href="#"><i class="fab fa-facebook-f"></i></a>
+						<a href="#"><i class="fab fa-twitter"></i></a>
+						<a href="#"><i class="fab fa-instagram"></i></a>
+						<a href="#"><i class="fab fa-youtube"></i></a>
+					</div>
+				</div>
+				<p class="copyright">COPYRIGHT © 2024 COOKS DELIGHT</p>
 			</div>
 		</div>
 	</body>
