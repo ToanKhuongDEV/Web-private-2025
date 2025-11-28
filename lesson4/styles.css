@@ -59,6 +59,8 @@ body {
 	flex-wrap: wrap;
 	row-gap: 5px;
 	column-gap: 16px;
+	color: var(	);
+;
 }
 
 .new-item {

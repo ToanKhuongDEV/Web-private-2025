@@ -1,0 +1,183 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Playfair Display", serif;
+	line-height: 1.5;
+	background-color: #fff;
+	color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: 100%;
+	font-weight: normal;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+input,
+button,
+textarea,
+select {
+	border: none;
+	outline: none;
+	background: none;
+	font-family: inherit;
+	font-size: inherit;
+	color: inherit;
+}
+
+.head1 {
+	display: flex;
+	justify-content: space-around;
+	color: white;
+	background-color: rgb(78, 68, 65);
+	padding: 15px 0;
+}
+
+.menu {
+	display: flex;
+	gap: 10px;
+}
+
+.head1-right button {
+	margin: 5px;
+}
+
+.head1-right {
+	display: flex;
+	gap: 10px;
+}
+
+.head1-right div {
+	padding: 5px 10px;
+}
+
+.sign-up {
+	background-color: #f9c06a;
+	border-radius: 20px;
+	color: black;
+	font-weight: bold;
+}
+
+.banner1 {
+	height: 600px;
+	background-image: url(data/coffee_image2.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.text-logo {
+	padding: 80px 50px 50px 80px;
+}
+
+.logo-topic {
+	font-size: 199px;
+	font-family: "Clicker Script", cursive;
+}
+
+.text1 {
+	font-size: 19px;
+}
+
+.order1 {
+	padding: 8px;
+	width: 110px;
+	background-color: #f9c06a;
+	border-radius: 20px;
+	color: black;
+	font-weight: bold;
+	margin-top: 20px;
+	font-size: 15px;
+}
+
+.dis1 {
+	display: flex;
+	color: black;
+	margin: 60px;
+}
+
+.dis1-title {
+	width: fit-content;
+	font-size: 45px;
+	font-weight: bold;
+	color: #603809;
+	text-align: center;
+	margin: auto;
+}
+
+.text2 {
+	font-size: 15px;
+	color: rgb(77, 77, 77);
+}
+
+.dis1-left {
+	margin-top: 70px;
+}
+
+.dis2 {
+	text-align: center;
+	margin: 10px 80px;
+}
+
+.text3 {
+	color: #603809;
+	font-weight: bold;
+	font-size: 22px;
+}
+
+.pro-list {
+	margin-top: 10px;
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+}
+
+.pro {
+	padding: 20px;
+	background-color: #ffeed8;
+	width: 230px;
+	height: 230px;
+}
+
+.dis3 {
+	background-image: url(data/Rectangle\ 14.png), linear-gradient(rgba(139, 69, 19, 0.5), rgba(139, 69, 19, 0.5));
+	background-repeat: no-repeat;
+
+	height: 450px;
+}
+.text4 {
+	font-size: 48px;
+	font-weight: bold;
+}
+.container-text {
+	padding: 80px;
+}
+.dis4 {
+	background-image: url(data/footer-img.png);
+	background-repeat: no-repeat;
+
+	display: flex;
+	gap: 10px;
+}
